@@ -46,12 +46,22 @@ main {
   font-size: var(--lg);
   font-weight: bold;
 }
+.subtitle {
+    margin: 5px;
+    font-size: var(--md);
+    font-weight: 500;
+    text-align: center;
+}
 .form-container {
   margin: 5px;
   padding: 5px;
   border: 1px solid var(--text2-color);
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 footer {
   width: 100%;
   height: 50px;
