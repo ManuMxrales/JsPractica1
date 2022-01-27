@@ -20,51 +20,63 @@
     <main>
       <section class="form-container">
           <h2 class="subtitle">Aqui puedes calcular el area y perimetro de un cuadrado!</h2>
+          <figure class="img-container">
+            <img src="./img/perritu.png" alt="Perritu Cuadrado">
+            <figaption>Imagina que soi um cuadrado</figaption>
+          </figure>
         <form>
           <label for="InputCuadrado"
             >Escribe cuanto mide cada lado del cuadrado</label
           >
-          <input id="InputCuadrado" type="number" />
-          <button type="button" onclick="calcularPerimetroCuadrado()">
+          <input class="primary-input" id="InputCuadrado" type="number" />
+          <button class="primary-button" type="button" onclick="calcularPerimetroCuadrado()">
             Calcular el Perimetro
           </button>
-          <button type="button" onclick="calcularAreaCuadrado()">
+          <button class="secondary-button" type="button" onclick="calcularAreaCuadrado()">
             Calcular el area
           </button>
         </form>
       </section>
-
+      
       <section class="form-container">
-        <h2>Calcula el area y perimetro de un cuadrado</h2>
-        <form>
-          <label for="InputCuadrado"
-            >Escribe cuanto mide cada lado del cuadrado</label
-          >
-          <input id="InputCuadrado" type="number" />
-          <button type="button" onclick="calcularPerimetroCuadrado()">
-            Calcular el Perimetro
-          </button>
-          <button type="button" onclick="calcularAreaCuadrado()">
-            Calcular el area
-          </button>
-        </form>
-      </section>
+        <h2 class="subtitle">Aqui puedes calcular el area y perimetro de un Circulo!</h2>
+        <figure class="img-container">
+          <img src="./img/perritu.png" alt="Perritu Circular">
+          <figaption>Imagina que soi um circulo</figaption>
+        </figure>
+      <form>
+        <label for="InputCuadrado"
+          >Escribe cuanto mide cada lado del Circulo</label
+        >
+        <input class="primary-input" id="InputCuadrado" type="number" />
+        <button class="primary-button" type="button" onclick="calcularPerimetroCuadrado()">
+          Calcular el Perimetro
+        </button>
+        <button class="secondary-button" type="button" onclick="calcularAreaCuadrado()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
 
-      <section class="form-container">
-        <h2>Calcula el area y perimetro de un cuadrado</h2>
-        <form>
-          <label for="InputCuadrado"
-            >Escribe cuanto mide cada lado del cuadrado</label
-          >
-          <input id="InputCuadrado" type="number" />
-          <button type="button" onclick="calcularPerimetroCuadrado()">
-            Calcular el Perimetro
-          </button>
-          <button type="button" onclick="calcularAreaCuadrado()">
-            Calcular el area
-          </button>
-        </form>
-      </section>
+    <section class="form-container">
+      <h2 class="subtitle">Aqui puedes calcular el area y perimetro de un Triangulo!</h2>
+      <figure class="img-container">
+        <img src="./img/perritu.png" alt="Perritu Triangular">
+        <figaption>Imagina que soi um Triangulo</figaption>
+      </figure>
+    <form>
+      <label for="InputCuadrado"
+        >Escribe cuanto mide cada lado del Triangulo</label
+      >
+      <input class="primary-input" id="InputCuadrado" type="number" />
+      <button class="primary-button" type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el Perimetro
+      </button>
+      <button class="secondary-button" type="button" onclick="calcularAreaCuadrado()">
+        Calcular el area
+      </button>
+    </form>
+  </section>
     </main>
     <footer>Dev ManuMxrales💻</footer>
     <script src="./figuras.js"></script>
