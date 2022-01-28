@@ -26,8 +26,9 @@ console.groupEnd();
 
 //Codigo para Triangulo
 //--------------------------------------------------------
-/*
 console.group("Triangulos");
+
+/*
 const ladoTriangulo1 = 6;
 const ladoTriangulo2 = 6;
 const baseTriangulo = 4;
@@ -41,10 +42,9 @@ function areaTriangulo(base, altura){
     return (base * altura) / 2;
 }
 console.log(areaTriangulo + " Area de Trangulo");
-
-
-console.groupEnd();
 */
+console.groupEnd();
+
 //Codigo para Circulo
 //-------------------------------------------------------
 console.group("Circulos");
