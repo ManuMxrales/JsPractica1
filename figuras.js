@@ -28,21 +28,32 @@ console.groupEnd();
 //--------------------------------------------------------
 console.group("Triangulos");
 
-/*
-const ladoTriangulo1 = 6;
-const ladoTriangulo2 = 6;
-const baseTriangulo = 4;
-const alturaTriangulo = 5.5;
+const btn_clear2 = document.getElementById("btn_clear2");
+const btn_tri = document.getElementById("btn_tri");
+let result2 = document.getElementById('result-triangulo');
 
-function perimetroTriangulo(lado1, lado2, base){
-    return lado1 + lado2 + base;
-}
+const triPerimetro = (lado, lado2, base) => lado +lado2 + base;
+const triArea = (base, altura) => (base * altura) / 2;
 
-function areaTriangulo(base, altura){
-    return (base * altura) / 2;
-}
-console.log(areaTriangulo + " Area de Trangulo");
-*/
+btn_tri.addEventListener("click", function apTri(){
+    const lado = document.getElementById("InputTriangulo");
+    const lado2 = document.getElementById("InputTriangulo2");
+    const base = document.getElementById("InputTriangulo3");
+
+    let data = triPerimetro(parseFloat(lado.value), parseFloat(lado2.value), parseFloat(base.value))
+    let data2 = triArea(parseFloat(lado.value), parseFloat(base.value))
+    result2.innerHTML = `El perimetro es: ${data.toFixed(2)} cm
+    El Area es: ${data2.toFixed(2)} cm^2`;
+
+    
+    
+
+});
+
+btn_clear2.addEventListener("click", function clear_btn(){
+    result3.innerHTML = "";
+});
+
 console.groupEnd();
 
 //Codigo para Circulo

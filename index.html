@@ -82,20 +82,35 @@
           <figaption>Imagina que soi um triangulo equilatero</figaption>
           <p class="result" id="result-triangulo"></p>
         </figure>
-        <form>
+        <form class="form-triangulo">
           <label for="InputTriangulo"
-            >Escribe cuanto mide cada lado del triangulo</label
+            >Escribe cuanto mide la base y lado del triangulo</label
           >
-          <input
-            class="primary-input"
+          <div class="lados-container">
+            <input
+            class="trian-input"
             id="InputTriangulo"
             type="number"
             placeholder="Lado en cm"
           />
-          <button class="primary-button" type="button" id="btn_tri">
+          <input
+            class="trian-input"
+            id="InputTriangulo2"
+            type="number"
+            placeholder="Lado 2 en cm"
+          />
+          </div>
+         
+          <input
+          class="primary-input"
+          id="InputTriangulo3"
+          type="number"
+          placeholder="Base en cm"
+        />
+          <button class="tri-button" type="button" id="btn_tri">
             Calcular el Perimetro
           </button>
-          <button class="secondary-button" type="reset" id="btn_clear">
+          <button class="tri2-button" type="reset" id="btn_clear2">
             Clear
           </button>
         </form>
