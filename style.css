@@ -70,7 +70,7 @@ img {
   margin: 5px;
   padding: 5px;
   border-radius: 25px;
-  border: 5px solid var(--text2-color);
+  border: 5px solid var(--2color);
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ label {
   margin: 5px 0;
 }
 .form-triangulo {
-  padding: 10px;
+  padding: 3px;
   align-items: center;
 }
 .trian-input {

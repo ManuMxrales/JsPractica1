@@ -22,11 +22,16 @@
         <h2 class="subtitle">
           Aqui puedes calcular el area y perimetro de un cuadrado!
         </h2>
-        <figure class="img-container">
+        <svg width="250" height="180">
+          <rect x="50" y="20" width="150" height="150"
+          style="fill:#191919;stroke:#ecdbba;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+        </svg>
+        <!-- <figure class="img-container">
           <img src="./img/perritu.png" alt="Perritu Cuadrado" />
           <figaption>Imagina que soi um cuadrado</figaption>
           <p class="result" id="result-cuadrado"></p>
-        </figure>
+        </figure> -->
+        
         <form>
           <label for="InputCuadrado"
             >Escribe cuanto mide cada lado del cuadrado</label
@@ -50,11 +55,15 @@
         <h2 class="subtitle">
           Aqui puedes calcular el area y perimetro de un circulo!
         </h2>
-        <figure class="img-container">
+        <svg height="190" width="250">
+          <circle cx="125" cy="100" r="80" stroke="#ecdbba" stroke-width="5" fill="#191919" />
+        </svg>
+       <!-- <figure class="img-container">
           <img src="./img/perritu.png" alt="Perritu Circular" />
           <figaption>Imagina que soi um circulo</figaption>
           <p class="result" id="result-circulo"></p>
-        </figure>
+        </figure> -->
+        <p class="result" id="result-circulo"></p>
         <form>
           <label for="InputCirculo"
             >Escribe cuanto mide cada lado del circulo</label
@@ -77,36 +86,40 @@
         <h2 class="subtitle">
           Aqui puedes calcular el area y perimetro de un triangulo!
         </h2>
-        <figure class="img-container">
+        <svg width="250" height="180">
+          <polygon fill="#191919" stroke="#ecdbba" stroke-width="5px" points="63 170, 125 35, 189 170" />
+        </svg>
+       <!-- <figure class="img-container">
           <img src="./img/perritu.png" alt="Perritu Triangular" />
           <figaption>Imagina que soi um triangulo equilatero</figaption>
           <p class="result" id="result-triangulo"></p>
-        </figure>
+        </figure> -->
+        <p class="result" id="result-triangulo"></p>
         <form class="form-triangulo">
           <label for="InputTriangulo"
-            >Escribe cuanto mide la base y lado del triangulo</label
+            >Escribe cuanto mide la base y lado del triangulo Equilatero</label
           >
           <div class="lados-container">
             <input
-            class="trian-input"
-            id="InputTriangulo"
-            type="number"
-            placeholder="Lado en cm"
-          />
-          <input
-            class="trian-input"
-            id="InputTriangulo2"
-            type="number"
-            placeholder="Lado 2 en cm"
-          />
+              class="trian-input"
+              id="InputTriangulo"
+              type="number"
+              placeholder="Lado en cm"
+            />
+            <input
+              class="trian-input"
+              id="InputTriangulo2"
+              type="number"
+              placeholder="Lado 2 en cm"
+            />
           </div>
-         
+
           <input
-          class="primary-input"
-          id="InputTriangulo3"
-          type="number"
-          placeholder="Base en cm"
-        />
+            class="primary-input"
+            id="InputTriangulo3"
+            type="number"
+            placeholder="Base en cm"
+          />
           <button class="tri-button" type="button" id="btn_tri">
             Calcular el Perimetro
           </button>

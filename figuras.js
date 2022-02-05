@@ -51,7 +51,7 @@ btn_tri.addEventListener("click", function apTri(){
 });
 
 btn_clear2.addEventListener("click", function clear_btn(){
-    result3.innerHTML = "";
+    result2.innerHTML = "";
 });
 
 console.groupEnd();
