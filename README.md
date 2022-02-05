@@ -1,9 +1,14 @@
 # JsPractica1
-Una pagina web integrando JS para ciertas funciones 
+Una pagina web integrando JS para Calcular Area y Perimetro de figuras Geometricas.
 
 ...
 
 ## Practica 1 Figuras Geometricas 
 
-- Vamos a Calcular el area y perimetro de figuras geometricas sencillas
+- Calcular Area de figuras basicas 
+- Calcular Perimetro de figuras basicas
+- HTML
+- CSS
+- JavaScript
+- Mobile Responsive
 
